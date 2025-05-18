@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+   background-color: #123458;
+ 
+}
+
+header {
+  background: #0e1012;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-inline-end: 100px;
+ 
+}
+
+#home {
+  padding: 40px;
+ background-color: #123458;
+ border: 1rem solid;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.home-text{
+  margin-right: 10px;
+  color: white;
+
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  stroke: black;
+  stroke: hsl(20deg 60% 70%);
+}
+/*contact*/
+.Contact img {
+  width: 15px;
+  height: 15px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.Contact a {
+  text-decoration: none;
+  color: white;
+ 
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: white;
+  
+}
+
+#projects, #skills, #contact {
+  padding: 40px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+#about {
+  padding: 40px 20px;
+  background-color: #d2cdcd;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  text-align: center;
+  
+}
+
+.about-education-container {
+display: flex;
+flex-direction: row; /* Ensures
+horizontal layout */
+justify-content: center;
+align-items: flex-start;
+gap: 50px;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.about-box, education-box { 
+min-width: 280px;
+max-width: 500px;
+}
+.about-box p {
+font-size: 1.1rem;
+ line-height: 1.6;
+}
+
+.education-box h3 {
+margin-bottom: 10px; 
+margin-top: 30px;
+font-size: 1.5rem;
+
+
+}
+
+.education-box ul { 
+  list-style-type: none; 
+  padding: 0;
+ }
+
+.education-box li {
+   margin-bottom: 15px;
+   font-size: 1.3rem;
+   line-height: 1.3;
+   
+   }
+
+/*project-card*/
+.project-card {
+  padding: 20px;
+ background-color: #adafb3;
+ text-align: center;
+}
+
+#projects h2 {
+   font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: white;
+}
+/*project-img*/
+.project-card img{
+    width: 300px;
+    height: 300px;
+}
+/*personal-skills*/
+.skills-list li {
+   background-color:#adafb3 ;
+   padding: 10px 20px;
+   border-radius: 20px;
+   font-weight: 500;
+   color:black;
+}
+
+.skills-list {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+margin-right: 30px;
+}
+
+.skills-list li {
+background: #adafb3;
+padding: 10px 15px;
+border-radius: 10px;
+margin-right: 20px;
+}
+/*skills*/
+#skills h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: white;
+  
+}
+/*Personal-skills*/
+#skills h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: white;
+}
+/*Languages*/
+#skills h4 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: white;
+  margin-top: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+input, textarea {
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  background: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 10px;
+}
